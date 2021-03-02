@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header:hover{
+    background: rgba(14, 13, 13, 0.61);
+}
+
+.ImgLogo{
+    width: 120px;
+    margin-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+/*filme-principal*/
+
+.filme-principal {
+    background: linear-gradient(rgba(7, 7, 7, 0.5), rgba(56, 55, 55, 0.50)100%), url("https://researchmatters.psu.edu/files/2016/03/House_of_Cards_title_card.jpg");
+    height: 850px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin-bottom: 50px;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.botao{
+    background: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 90px;
+}
+
+header nav .menu{
+    display: none;
+}

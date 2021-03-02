@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px){
+    header nav a{
+        display: none;
+    }
+
+    header nav .menu{
+        display: inline-block;
+        color: white;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
